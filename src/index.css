@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&display=swap');
+@import "tailwindcss";
+
+
+.font-[island] {
+  font-family: 'Island Moments', cursive;
+}
