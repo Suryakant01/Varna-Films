@@ -21,16 +21,38 @@ const AboutUs = () => {
                 {/* --- LEFT COLUMN --- */}
                 <div className="flex flex-col gap-y-16 lg:gap-y-24">
                     {/* Upper Part: Text */}
-                    <div className="flex flex-col gap-y-8">
-                        <h1 className="lg:text-4xl md:text-3xl text-xl font-semibold">
+                    <div className="flex flex-col gap-y-8 text-center">
+                        {/* Heading — Halant */}
+                        <h1
+                            className="font-normal text-[40px] leading-[100%] tracking-[0] text-center"
+                            style={{
+                                fontFamily: '"Halant", serif',
+                                fontWeight: 400,
+                                fontStyle: "normal",
+                                lineHeight: "100%",
+                                letterSpacing: "0",
+                            }}
+                        >
                             A montage of familiar faces and names.
                         </h1>
-                        <p className="lg:text-2xl text-base sm:text-lg text-gray-700">
+
+                        {/* Paragraph — Instrument Sans */}
+                        <p
+                            className="font-normal text-[24px] leading-[100%] tracking-[0] text-center text-gray-700"
+                            style={{
+                                fontFamily: '"Instrument Sans", sans-serif',
+                                fontWeight: 400,
+                                fontStyle: "normal",
+                                lineHeight: "100%",
+                                letterSpacing: "0",
+                            }}
+                        >
                             Some stories come from the biggest names. Others begin with bold,
-                            rising voices. We’ve been fortunate to walk alongside both -
+                            rising voices. We’ve been fortunate to walk alongside both —
                             listening, creating, and building stories that matter.
                         </p>
                     </div>
+
 
                     {/* Bottom Part: Members Image */}
                     <motion.img
